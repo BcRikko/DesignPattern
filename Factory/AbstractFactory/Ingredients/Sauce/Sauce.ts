@@ -1,0 +1,3 @@
+interface ISauce {
+    toString: () => string;
+}

@@ -1,0 +1,3 @@
+interface ICheese {
+    toString: () => string;
+}

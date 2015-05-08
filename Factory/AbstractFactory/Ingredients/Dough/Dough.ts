@@ -1,0 +1,3 @@
+interface IDough {
+    toString: () => string;
+}

@@ -1,0 +1,3 @@
+interface IVeggies {
+    toString: () => string;
+}

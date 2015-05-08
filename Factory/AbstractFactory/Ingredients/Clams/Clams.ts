@@ -1,0 +1,3 @@
+interface IClams {
+    toString: () => string;
+}

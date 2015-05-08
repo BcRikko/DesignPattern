@@ -1,0 +1,3 @@
+interface IPepperoni {
+    toString: () => string;
+}
