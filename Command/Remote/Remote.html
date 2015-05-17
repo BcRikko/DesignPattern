@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Design Pattern(RemoteCommand)</title>
+</head>
+
+<body>
+    <!-- interface -->
+    <script src="./Command/Command.js"></script>
+
+    <!-- null object -->
+    <script src="./Command/NoCommand.js"></script>
+
+    <!-- commands -->
+    <script src="./Command/CeilingFan/CeilingFan.js"></script>
+    <script src="./Command/GarageDoor/GarageDoor.js"></script>
+    <script src="./Command/Hottub/Hottub.js"></script>
+    <script src="./Command/Light/Light.js"></script>
+    <script src="./Command/Stereo/Stereo.js"></script>
+    <script src="./Command/TV/TV.js"></script>
+
+    <!-- receiver -->
+    <script src="./Command/CeilingFan/CeilingFanOffCommmand.js"></script>
+    <script src="./Command/CeilingFan/CeilingFanOnCommand.js"></script>
+    <script src="./Command/GarageDoor/GarageDoorDownCommand.js"></script>
+    <script src="./Command/GarageDoor/GarageDoorUpCommand.js"></script>
+    <script src="./Command/Hottub/HottubOffCommand.js"></script>
+    <script src="./Command/Hottub/HottubOnCommand.js"></script>
+    <script src="./Command/Light/LightOffCommand.js"></script>
+    <script src="./Command/Light/LightOnCommand.js"></script>
+    <script src="./Command/Light/LivingroomLightOffCommand.js"></script>
+    <script src="./Command/Light/LivingroomLightOnCommand.js"></script>
+    <script src="./Command/Stereo/StereoOffCommand.js"></script>
+    <script src="./Command/Stereo/StereoOnWithCDCommand.js"></script>
+
+    <!-- invoker -->
+    <script src="./RemoteControl.js"></script>
+
+    <!-- main -->
+    <script src="./RemoteLoader.js"></script>
+
+</body>
+
+</html>
