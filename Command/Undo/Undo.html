@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>Design Pattern(Undo Command)</title>
+</head>
+<body>
+    <!-- interface -->
+    <script src="./Command/Command.js"></script>
+
+    <!-- null object -->
+    <script src="./Command/NoCommand.js"></script>
+    
+    <!-- commands -->
+    <script src="./Command/CeilingFan/CeilingFan.js"></script>
+    <script src="./Command/Light/Light.js"></script>
+    
+    <!-- receiver -->
+    <script src="./Command/CeilingFan/CeilingFanHighCommand.js"></script>
+    <script src="./Command/CeilingFan/CeilingFanLowCommand.js"></script>
+    <script src="./Command/CeilingFan/CeilingFanMediumCommand.js"></script>
+    <script src="./Command/CeilingFan/CeilingFanOffCommand.js"></script>
+    <script src="./Command/Light/LightOffCommand.js"></script>
+    <script src="./Command/Light/LightOnCommand.js"></script>
+    <script src="./Command/Light/DimmerLightOffCommand.js"></script>
+    <script src="./Command/Light/DimmerLightOnCommand.js"></script>
+    
+    <!-- invoker -->
+    <script src="./RemoteControlWithUndo.js"></script>
+    
+    <!-- main -->
+    <script src="./RemoteLoader.js"></script>
+
+</body>
+</html>
