@@ -1,4 +1,4 @@
-class DimmerLightOffCommand implements ICommand {
+class DimmerLightOnCommand implements ICommand {
     private light: Light;
     private preLevel: number;
 
